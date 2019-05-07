@@ -1,0 +1,33 @@
+#filterBy{
+    width: 100% !important;
+   margin-right: 15%;
+}
+
+.nomargin {
+    margin-left: 70px !important;
+}
+
+.btn .btn-primary .lookup {
+    width: 80% !important;
+
+}
+.confBttns{
+    margin: 3px !important;
+    display: inline-block !important;
+  }
+  
+  
+  #view{
+      min-width: 49%; 
+      max-width: 49%; 
+      background-color:#007bff ;  
+      padding: 2px;
+      border-color: gainsboro !important;
+  }
+  #download{
+      min-width: 49%;
+      max-width: 49%;
+      padding: 2px;
+      background-color: #007bff;
+      border-color: gainsboro !important;
+  }

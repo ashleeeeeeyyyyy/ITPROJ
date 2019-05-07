@@ -1,0 +1,448 @@
+.btn-height {
+    height: 75px !important;
+    width: 49% !important;
+    display: inline-block !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+    background-color: #005c09 !important;
+    border-color: #005c09  !important;
+}
+
+button[aria-controls="assessed"] {
+    height: 75px !important;
+    width: 49% !important;
+    display: inline-block !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+    background-color: #005c09 !important;
+    border-color: #005c09 !important;
+}
+
+
+.confBttns{
+    width: 80px;
+    font-size: 10px;
+  
+    margin-left: 70%;   
+  
+    
+  }
+   #details{
+       margin-bottom: 0px !important;
+   }
+  
+  #payBtn{
+      width: 80px;
+      background-color:#228B22 ;  
+      padding: 2px;
+      border-color: gainsboro !important;
+  }
+  #crossBtn{
+      min-width: 49%;
+      max-width: 49%;
+      padding: 2px;
+      background-color: #B22222;
+      border-color: gainsboro !important;
+  }
+
+  #infoBtn{
+    min-width: 49%; 
+    max-width: 49%; 
+    background-color:#228B22 ;  
+    padding: 2px;
+    margin-left: 50% !important;
+    border-color: gainsboro !important;
+  }
+
+  #unpaidBtn{
+    height: 10mm!important;
+    display: inline;
+
+  }
+  #paidBtn{
+    height: 10mm!important;
+    display: inline;
+
+  }
+  
+
+  #cardUnassessed{
+    border-color: #ffbb33!important;
+    min-width: 30% !important;
+    max-width: 30% !important;
+    font-size: 15px !important; 
+    
+ 
+}
+
+#cardAssessed{
+    border-color:#228B22!important;
+    min-width: 30% !important;
+    max-width: 30% !important;
+    font-size: 15px !important; 
+    
+}
+
+#cardHead-assessed{
+   
+        background-color: #228B22;  
+}
+
+#cardHead-unassessed{
+    background-color: #ffbb33;  
+}
+
+  .card-text{
+      line-height: 15px;
+      
+  }
+  .card-text-modal{
+      line-height: 15px;
+      margin-left: 2%;
+  }
+  
+ 
+  .card-text-indent{
+     
+      line-height: 15px;
+  }
+
+  #infoHead{
+    display: inline-block;
+    text-align: center; 
+}
+#regInfo{
+
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 1%;
+    margin-left: 4%;
+ 
+}
+#regInfo p{
+    height: 10px;
+ 
+}
+
+  
+  #headerCharges{
+      background-color: #ffbb33;   
+      color: white; 
+      margin-bottom: 0px; 
+  }
+  #tabIdentifier{
+    font-weight: bold;
+    color: black;
+
+   
+}
+.FacilitiesTable{
+    margin-bottom: 3%;
+    color: black;
+    text-align: center;
+
+}
+.ChargesTable{
+    text-align: center;
+    margin-bottom: 1%;
+    color: black;
+}
+#total{
+    font-weight: bold;
+     margin-left: 75%;
+     padding-right: 2%;
+     position: relative;
+     color: #007bff;
+ }
+ #factab{
+    width: 100%;
+    height: 20%;
+    overflow-y: scroll;
+    overflow: auto;
+    margin-bottom: 1%;
+    text-align:justify;
+
+ }
+
+ #charTab{
+     text-align: center;
+    width: 100%;
+    height: 20%;
+    overflow-y: scroll;
+    overflow: auto;
+ }
+ thead{
+    text-align: center;
+}
+td{
+    font-size: 16px;
+}
+tbody{
+    text-align: center;
+}
+.SubTotal{
+    text-align: center;
+}
+#subtotal{
+    font-weight: bold;
+     margin-left: 70%;
+     padding-right: 2%;
+     position: relative;
+     color: #007bff;
+ }
+
+
+  
+ #facDrop{
+     float: left;
+      color: #007bff;
+      position: fixed !important;
+      text-decoration: underline!important;
+     
+ }
+
+ #facilities{
+     margin-top: 30px;
+   
+ }
+
+.card-text-indent{
+    margin-left: 10% !important;
+}
+.card-text-main{
+    font-weight: bold;
+    font-size: 16px;
+   
+}
+
+.table-wrapper {
+    width: 700px;
+    background: #fff;
+    padding: 20px;	
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.table-title {
+    padding-bottom: 10px;
+    margin: 0 0 10px;
+}
+.table-title h2 {
+    margin: 6px 0 0;
+    font-size: 22px;
+}
+.table-title .add-new {
+    float: right;
+    height: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: none;
+    min-width: 100px;
+    border-radius: 50px;
+    line-height: 13px;
+}
+.table-title .add-new i {
+    margin-right: 4px;
+}
+table.table {
+    table-layout: fixed;
+}
+table.table tr th, table.table tr td {
+    border-color: #e9e9e9;
+}
+table.table th i {
+    font-size: 13px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+table.table th:last-child {
+    width: 100px;
+}
+table.table td a {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px;
+    min-width: 24px;
+}    
+table.table td a.add {
+    color: #27C46B;
+}
+table.table td a.edit {
+    color: #FFC107;
+}
+table.table td a.delete {
+    color: #E34724;
+}
+table.table td i {
+    font-size: 19px;
+}
+table.table td a.add i {
+    font-size: 24px;
+    margin-right: -1px;
+    position: relative;
+    top: 3px;
+}    
+table.table .form-control {
+    height: 32px;
+    line-height: 32px;
+    box-shadow: none;
+    border-radius: 2px;
+}
+table.table .form-control.error {
+    border-color: #f50000;
+}
+table.table td .add {
+    display: none;
+}   
+
+#try{
+   padding: 0px;
+    width: 150%;
+}
+
+#bodyCharges{
+   margin-left: 1%;
+}
+.container{
+    margin: 0px;
+    padding: 0px;
+}
+#label{
+    font-weight: 600;
+}
+
+h6{
+   margin-top: 2%;
+   margin-left: 4%;
+    color: #007bff;
+    font-weight: 600;
+}
+#info{
+    margin-left: 1%;
+}
+
+#payment{
+    margin-left:10%;
+    text-align: left;
+    color: black;
+}
+#colFormLabelSm1{
+    margin-left: 15%;
+}
+#colFormLabelSm2{
+    margin-left: 8%;
+}
+#colFormLabelSm3{
+    margin-left: 4%;
+}
+#colFormLabelSm4{
+    margin-left: 3%;
+}
+#colFormLabelSm5{
+    margin-left: 19%;
+}
+#colFormLabelSm6{
+    margin-left: 11%;
+}
+#inlineRadio1{
+   
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+#inlineRadio2{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+#inlineRadio3{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.form-check-label{
+    
+    font-size: 13px;
+}
+.form-check-inline{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#radio1{
+    margin-left: 20%;
+}
+#subPay{
+  
+    color: white;
+}
+#submitPayment{
+    margin-top: 1%;
+    margin-left: 70% !important;   
+}
+#paymentInfo{
+   
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 2%;
+    
+}
+#paymentInfo p{
+    height: 10px;
+ 
+}
+#regDetails{
+   
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+#regDetails  p{
+    height: 10px;
+ 
+}
+
+#paymentModalSize{
+    width: 80%;
+}
+
+a[aria-selected="false"] {
+    background-color: #005c09 !important;
+    color: #fff !important;
+    margin-left: 20px !important;
+    width: 400px !important;
+    height: 80px !important;
+    font-size: 20px !important;
+    text-align: center !important;
+    
+}
+
+a[aria-selected="true"] {
+    background-color: #fff !important;
+    color: #005c09 !important;
+    margin-left: 20px !important;
+    width: 400px !important;
+    height: 80px !important;
+    font-size: 20px !important;
+    text-align: center !important;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link.active{
+    color: #000 !important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #fff !important;
+    border: 3px solid #005c09 !important;
+}
+
+.fade:not(.show) {
+    display: none;
+}
+
+

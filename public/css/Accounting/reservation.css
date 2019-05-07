@@ -1,0 +1,49 @@
+.center-margin {
+    margin-left: 100px !important;
+}
+
+a[aria-selected="false"] {
+    background-color: #005c09 !important;
+    color: #fff !important;
+    margin-left: 20px !important;
+    width: 400px !important;
+    height: 80px !important;
+    font-size: 20px !important;
+    text-align: center !important;
+}
+
+a[aria-selected="true"] {
+    background-color: #fff !important;
+    border: 1px solid #005c09 !important;
+    color: #fff !important;
+    margin-left: 20px !important;
+    width: 400px !important;
+    height: 80px !important;
+    font-size: 20px !important;
+    text-align: center !important;
+    overflow-y: hidden;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link.active {
+    color: #000 !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #fff !important;
+    border: 3px solid #005c09 !important;
+}
+
+a[id="pills-individual-tab"] {
+    background: #005c09 !important;
+}
+
+.fade:not(.show) {
+    display: none;
+}
+

@@ -1,0 +1,288 @@
+.btn-height {
+    height: 75px !important;
+    width: 49% !important;
+    display: inline-block !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+    background-color: #005c09 !important;
+    border-color: #005c09  !important;
+}
+
+.confBttns{
+    margin-bottom: 3px !important;
+    display: relative !important;
+  }
+   #details{
+       margin-bottom: 0px !important;
+   }
+  
+  #checkBtn{
+      min-width: 49%; 
+      max-width: 49%; 
+      background-color:#228B22 ;  
+      padding: 2px;
+      border-color: gainsboro !important;
+  }
+  #crossBtn{
+      min-width: 49%;
+      max-width: 49%;
+      padding: 2px;
+      background-color: #B22222;
+      border-color: gainsboro !important;
+  }
+
+  #infoBtn{
+    min-width: 49%; 
+    max-width: 49%; 
+    background-color:#228B22 ;  
+    padding: 2px;
+    margin-left: 50% !important;
+    border-color: gainsboro !important;
+  }
+
+  #cardUnassessed{
+    border-color: #ffbb33!important;
+    min-width: 30% !important;
+    max-width: 30% !important;
+    font-size: 15px !important; 
+
+ 
+}
+
+#cardAssessed{
+    border-color:#228B22!important;
+    min-width: 30% !important;
+    max-width: 30% !important;
+    font-size: 15px !important; 
+    
+}
+
+#cardHead-assessed{
+   
+        background-color: #228B22;  
+}
+
+#cardHead-unassessed{
+    background-color: #ffbb33;  
+}
+
+  .card-text{
+      line-height: 15px;
+      
+  }
+  .card-text-modal{
+      line-height: 15px;
+      margin-left: 2%;
+  }
+  
+ 
+  .card-text-indent{
+     
+      line-height: 15px;
+  }
+
+  #infoHead{
+    display: inline-block;
+    text-align: center; 
+}
+#regInfo{
+
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-left: 4%;
+ 
+}
+#regInfo p{
+    height: 10px;
+}
+
+  
+  #headerCharges{
+      background-color: #ffbb33;   
+      color: white; 
+      margin-bottom: 0px; 
+  }
+  #tabIdentifier{
+    font-weight: bold;
+    color: black;
+   
+}
+.FacilitiesTable{
+    margin-bottom: 3%;
+    color: black;
+
+}
+.ChargesTable{
+    margin-bottom: 1%;
+    color: black;
+}
+#total{
+    font-weight: bold;
+     margin-left: 75%;
+     padding-right: 2%;
+     position: relative;
+     color: #007bff;
+ }
+ #factab{
+    width: 100%;
+    height: 20%;
+    overflow-y: scroll;
+    overflow: auto;
+    margin-bottom: 1%;
+
+ }
+
+ #charTab{
+     text-align: center;
+    width: 100%;
+    height: 20%;
+    overflow-y: scroll;
+    overflow: auto;
+ }
+ thead{
+    text-align: center;
+}
+td{
+    font-size: 16px;
+}
+tbody{
+    text-align: center;
+}
+
+#subtotal{
+    font-weight: bold;
+     margin-left: 70%;
+     padding-right: 2%;
+     position: relative;
+     color: #007bff;
+ }
+
+
+  
+ #facDrop{
+     float: left;
+      color: #007bff;
+      position: fixed !important;
+      text-decoration: underline!important;
+     
+ }
+
+ #facilities{
+     margin-top: 30px;
+   
+ }
+
+ #addNew{
+     margin-left: 61%;
+ }
+
+.card-text-indent{
+    margin-left: 10% !important;
+}
+.card-text-main{
+    font-weight: bold;
+    font-size: 16px;
+   
+}
+
+.table-wrapper {
+    width: 700px;
+    background: #fff;
+    padding: 0px 35px 0px 35px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.table-title {
+    padding-bottom: 10px;
+    margin: 0 0 10px;
+}
+.table-title h2 {
+    margin: 6px 0 0;
+    font-size: 22px;
+}
+.table-title .add-new {
+    float: right;
+    height: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: none;
+    min-width: 100px;
+    border-radius: 50px;
+    line-height: 13px;
+}
+.table-title .add-new i {
+    margin-right: 4px;
+}
+table.table {
+    table-layout: fixed;
+}
+table.table tr th, table.table tr td {
+    border-color: #e9e9e9;
+}
+table.table th i {
+    font-size: 13px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+table.table th:last-child {
+    width: 100px;
+}
+table.table td a {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px;
+    min-width: 24px;
+}    
+table.table td a.add {
+    color: #27C46B;
+}
+table.table td a.edit {
+    color: #FFC107;
+}
+table.table td a.delete {
+    color: #E34724;
+}
+table.table td i {
+    font-size: 19px;
+}
+table.table td a.add i {
+    font-size: 24px;
+    margin-right: -1px;
+    position: relative;
+    top: 3px;
+}    
+table.table .form-control {
+    height: 32px;
+    line-height: 32px;
+    box-shadow: none;
+    border-radius: 2px;
+}
+table.table .form-control.error {
+    border-color: #f50000;
+}
+table.table td .add {
+    display: none;
+}
+
+#try{
+   padding: 0px;
+    width: 150%;
+}
+
+#bodyCharges{
+   margin-left: 1%;
+}
+.container{
+    margin: 0px;
+    padding: 0px;
+}
+
+h6{
+    margin-top: 5%;
+    margin-left: 70%;
+}
+#info{
+    margin-left: 1%;
+}
+
